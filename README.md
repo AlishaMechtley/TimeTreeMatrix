@@ -17,3 +17,5 @@ comments:
 Those times that were not available in TimeTree.org appear as a -1 in the matrix.
 This takes a while to run because it gets the same divergence time twice. 
 It should be fixed to only calculate the top half. To use, compile and run as a .pyc.
+
+Note: Should use beatuifulSoup instead of RE like my other programs. Will update soon.
