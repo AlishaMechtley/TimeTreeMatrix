@@ -50,7 +50,11 @@ def getDivergenceTime(Genus1, species1, Genus2, species2): #Note: can not have s
 
 	rData = response.read()
 	
-	pattern='class="panel year block"[^<]+<h1[^>]+>([0-9\.]+)<' # + indicates one or more of stuff in the brackets, ^ means not, () for subpattern to extract
+	pattern='class="panel year block"[^<]+<h1[^>]+>([0-9\.]+)<' 
+	# + indicates one or more of stuff in the brackets, ^ means not, 
+	# () for subpattern to extract
+	# NOTE: THIS PATTERN MAY HAVE CHANGED IN THE LAST COUPLE YEARS. 
+	# SHOULD SWITCH TO BEAUTIFULSOUP
 	match = re.search(pattern, rData) 
 	if match != None:
 		return match.group(1) # zero is whole match, group 1 is the subpattern
