@@ -14,8 +14,4 @@ The delimiter is hardcoded but can be changed (for example, ',' or ' ').
 The result is a textfile (timeTree.txt) that contains a matrix of each if the pairwise divergence times
 
 comments:
-Those times that were not available in TimeTree.org appear as a -1 in the matrix.
-This takes a while to run because it gets the same divergence time twice. 
-It should be fixed to only calculate the top half. To use, compile and run as a .pyc.
-
-Note: Should use beatuifulSoup instead of RE like my other programs. Will update soon.
+Those times that were not available in TimeTree.org appear as a -1 in the matrix.This takes a while to run because it gets the same divergence time twice.I only needed to use it once so I haven't made improvements.It should be fixed to only calculate the top half of the matrix.If we want to do matrix manipulations,we can simply transpose the matrix and add the cells together for a full matrix. Should use beatuifulSoup instead of RE like my other programs. To use, compile and run as a .pyc.
