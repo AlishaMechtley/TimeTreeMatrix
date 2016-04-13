@@ -1,5 +1,5 @@
 
----------------------------------------![Input Files](https://raw.githubusercontent.com/AlishaMechtley/TimeTreeMatrix/master/timetree.png)---------------------------------------
+---------------------------------------------![Input Files](https://raw.githubusercontent.com/AlishaMechtley/TimeTreeMatrix/master/timetree.png)---------------------------------------------
 
 Provided a list of genus and species names (in csv format), TimeTree.py creates an nxn matrix for n taxa of divergence times using TimeTree.org. I wrote it for my advisor one summer when I was asked to look up the divergence times of over 35 of species against one another. I have a general policy regarding anything that has to be done more than 20 times - it warrants the writing of a script. 
 
